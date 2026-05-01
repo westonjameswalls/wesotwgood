@@ -67,7 +67,7 @@ nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px 
 .ssub{font-size:16px;color:var(--gt);line-height:1.5;margin-bottom:24px}
 
 /* ===PRICE INFO=== */
-.price-info{background:var(--white);border:1px solid var(--gb);border-left:4px solid var(--orange);border-radius:12px;padding:16px 18px;margin-bottom:18px;font-size:15px;color:var(--gt);line-height:1.5}
+.price-info{display:none;background:var(--white);border:1px solid var(--gb);border-left:4px solid var(--orange);border-radius:12px;padding:16px 18px;margin-bottom:18px;font-size:15px;color:var(--gt);line-height:1.5}
 .price-info strong{color:var(--navy)}
 .diag-card{background:var(--navy);border-radius:14px;padding:22px;margin-bottom:22px;color:var(--white)}
 .diag-icon{font-size:26px;margin-bottom:10px}
@@ -216,7 +216,7 @@ footer{background:var(--navy);color:rgba(255,255,255,.7);padding:44px 20px 22px}
 /* ============================================
    DESKTOP 900px+
    ============================================ */
-@media(min-width:900px){.price-promise{display:inline-block}
+@media(min-width:900px){.price-info{display:block}
 
 /* NAV */
 nav{height:80px;padding:0 60px}
@@ -343,8 +343,6 @@ nav{height:80px;padding:0 60px}
 .mob-drawer-cta{padding:20px}
 .mob-drawer-cta a{display:flex;align-items:center;justify-content:center;gap:8px;background:var(--orange);color:var(--white);font-size:16px;font-weight:700;padding:16px;border-radius:10px;text-decoration:none}
 @media(min-width:900px){.mob-menu{display:none!important}}
-
-.price-promise{display:none;border:2px solid var(--orange);border-left:5px solid var(--orange);border-radius:10px;padding:14px 18px;font-size:15px;font-weight:600;color:var(--navy);line-height:1.5;background:linear-gradient(to right,rgba(232,96,10,.06),transparent)}
 </style>
 </head>
 <body>
@@ -489,7 +487,7 @@ nav{height:80px;padding:0 60px}
       <h2 class="stitle" id="ph">PRICE SHEET</h2>
     </div>
     <div class="price-hdr-right">
-      <p class="price-promise">Transparent pricing with no hidden fees. All quotes include parts and labor. Final quote confirmed before any work begins.</p>
+
     </div>
   </div>
 
@@ -555,7 +553,6 @@ nav{height:80px;padding:0 60px}
         <p class="pc-note">Parts &amp; labor included</p>
         <ul class="pc-feats"><li>Eliminates unreliable TorqueMaster</li><li>Converts to standard torsion</li><li>Better long-term reliability</li></ul>
       </article>
-      <div></div>
     </div>
     <div class="cta-band">
       <div><h3 class="cta-band-title">NOT SURE WHAT YOU NEED?</h3><p class="cta-band-sub">Call Wes &mdash; straight answer and a fair price before any work begins.</p></div>
@@ -699,7 +696,6 @@ nav{height:80px;padding:0 60px}
         <p class="pc-note">Labor &bull; $65 diag fee applied</p>
         <ul class="pc-feats"><li>Motor, sensors, logic board</li><li>Remote &amp; keypad programming</li><li>Safety reversal test</li></ul>
       </article>
-      <div></div>
     </div>
     <div class="cta-band">
       <div><h3 class="cta-band-title">NOT SURE WHAT YOU NEED?</h3><p class="cta-band-sub">Call Wes &mdash; straight answer and a fair price before any work begins.</p></div>
@@ -740,7 +736,6 @@ nav{height:80px;padding:0 60px}
         <p class="pc-note">Parts &amp; labor included</p>
         <ul class="pc-feats"><li>Damaged section replaced</li><li>Hardware transferred</li><li>Door balance check</li></ul>
       </article>
-      <div></div>
     </div>
     <div class="cta-band">
       <div><h3 class="cta-band-title">NOT SURE WHAT YOU NEED?</h3><p class="cta-band-sub">Call Wes &mdash; straight answer and a fair price before any work begins.</p></div>
